@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="401dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="0"
+            android:layout_column="2"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="1"
+            android:layout_column="2"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:onClick="increaseScore"
+            android:layout_row="2"
+            android:layout_column="2"
+            app:srcCompat="@drawable/d6b2485d94c84aeea3069861bfa0c8ee" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="72dp"
+        android:text="Time:10"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="47dp"
+        android:text="Score: 0"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
